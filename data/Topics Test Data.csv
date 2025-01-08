@@ -1,0 +1,177 @@
+﻿Topic Number,Topic Name,Topic Keywords
+1.1.1,Categories of controls,"Technical, Managerial, Operational, Physical"
+1.1.2,Types of Controls,"Directive, Deterrent, Preventive, Detective, Corrective, Compensating"
+1.2.1,"Confidentiality, Integrity, and Availability (CIA) & Non-repudiation",
+1.2.2,"Authentication, Authorization, and Accounting (AAA)","Authenticating people, Authenticating systems, Authorization models"
+1.2.3,Gap analysis,
+1.2.4,Zero Trust,"Control Plane (Adaptive identity, Threat scope reduction, Policy-driven access control, Policy Administrator, Policy Engine, Data Plane (Implicit trust zones, Subject/System, Policy Enforcement Point)"
+1.2.5,Physical Security,"Bollards, Access control vestibule, Fencing, Video surveillance, Security guard, Access badge, Lighting Sensors (Infrared, Pressure, Microwave, Ultrasonic)"
+1.2.6,Deception and disruption technology,"Honeypot, Honeynet, Honeyfile, Honeytoken"
+1.3.1,Business processes impacting security operation,Approval process - Ownership - Stakeholders - Impact analysis - Test results - Backout plan - Maintenance window - Standard operating procedure
+1.3.2,Technical implications,"Allow lists/deny lists, Restricted activities, Downtime, Service restart, Application restart, Legacy applications, Dependencies"
+1.3.3,Documentation,"Updating diagrams, Updating policies/procedures"
+1.3.4,Version Control,
+1.4.1,Public key infrastructure (PKI),Public key - Private key - Key escrow
+1.4.2,Encryption,"Level (Full-disk, Partition, File, Volume, Database, Record), Transport/communication, Asymmetric, Symmetric, Key exchange, Algorithms, Key length"
+1.4.3,Tools,Trusted Platform Module (TPM) - Hardware security module (HSM) - Key management system - Secure enclave
+1.4.4,Obfuscation,"Steganography, Tokenization, Data masking"
+1.4.5,Hashing,Hashing has a Fixed length of bits for output
+1.4.6,Salting,
+1.4.7,Digital Signatures,
+1.4.8,Key Stretching,
+1.4.9,Blockchain,
+1.4.10,Open Public Ledger,
+1.4.11,Certificates,Certificate authorities - Certificate revocation lists (CRLs) - Online Certificate Status Protocol (OCSP) - Self-signed - Third-party - Root of trust - Certificate signing request (CSR) generation - Wildcard
+2.1.1,Threat actors,Nation-state - Unskilled attacker - Hacktivist - Insider threat - Organized crime - Shadow IT
+2.1.2,Attributes of actors,Internal/external - Resources/funding - Level of sophistication/capability
+2.1.3,Motivations,Data exfiltration - Espionage - Service disruption - Blackmail - Financial gain - Philosophical/political beliefs - Ethical - Revenge - Disruption/chaos - War
+2.2.1,Message-based,"Email, Short Message Service (SMS), Instant messaging (IM)"
+2.2.2,Image-based,
+2.2.3,File-based,
+2.2.4,Voice call,
+2.2.5,Removable device,
+2.2.6,Vulnerable software,Client-based vs. agentless
+2.2.7,Unsupported systems and applications,
+2.2.8,Unsecure networks,Wireless - Wired - Bluetooth
+2.2.9,Open service ports,
+2.2.10,Default credentials,
+2.2.11,Supply chain,Managed service providers (MSPs) - Vendors - Suppliers
+2.2.12,Human vectors/social engineering,Phishing - Vishing - Smishing - Misinformation/disinformation - Impersonation - Business email compromise - Pretexting - Watering hole - Brand impersonation - Typosquatting
+2.3.1,Application,"- Memory injection - Buffer overflow - Race conditions [Time-of-check (TOC), Time-of-use (TOU)] - Malicious update"
+2.3.2,Operating system (OS)-based,
+2.3.3,Web-based,Structured Query Language injection (SQLi) - Cross-site scripting (XSS)
+2.3.4,Hardware,Firmware - End-of-life - Legacy
+2.3.5,Virtualization,Virtual machine (VM) escape - Resource reuse
+2.3.6,Cloud-specific,
+2.3.7,Supply chain,Service provider - Hardware provider - Software provider
+2.3.8,Cryptographic,
+2.3.9,Misconfiguration,
+2.3.10,Mobile device,Side loading - Jailbreaking
+2.3.11,Zero-day,
+2.4.1,Malware attacks,Ransomware - Trojan - Worm - Spyware - Bloatware - Virus - Keylogger - Logic bomb - Rootkit
+2.4.2,Physical attacks,Brute force - Radio frequency identification (RFID) cloning - Environmental
+2.4.3,Network attacks,Distributed denial-of-service (DDoS) o Amplified o Reflected - Domain Name System (DNS) attacks - Wireless - On-path - Credential replay - Malicious code
+2.4.4,Application attacks,Injection - Buffer overflow - Replay - Privilege escalation - Forgery - Directory traversal
+2.4.5,Cryptographic attacks,Downgrade - Collision - Birthday
+2.4.6,Password attacks,Spraying - Brute force
+2.4.7,Indicators,Account lockout - Concurrent session usage - Blocked content - Impossible travel - Resource consumption - Resource inaccessibility - Out-of-cycle logging - Published/documented - Missing logs
+2.5.1,Segmentation,
+2.5.2,Access control,Access control list (ACL) - Permissions
+2.5.3,Application allow list,
+2.5.4,Isolation,
+2.5.5,Patching,
+2.5.6,Encryption,
+2.5.7,Monitoring,
+2.5.8,Least privilege,
+2.5.9,Configuration enforcement,
+2.5.10,Decommissioning,
+2.5.11,Hardening techniques,Encryption - Installation of endpoint protection - Host-based firewall - Host-based intrusion prevention system (HIPS) - Disabling ports/protocols - Default password changes - Removal of unnecessary software
+3.1.1,Architecture and infrastructure concepts,"Cloud(Responsibility matrix, Hybrid considerations, Third-party vendors) - Infrastructure as code (IaC) - Serverless - Microservices - Network infrastructure,(Physical isolation, Air-gapped, Logical segmentation, Software-defined networking (SDN)) - On-premises - Centralized vs. decentralized - Containerization - Virtualization - IoT - Industrial control systems (ICS)/ supervisory control and data acquisition (SCADA) - Real-time operating system (RTOS) - Embedded systems - High availability"
+3.1.2,Considerations,Availability - Resilience - Cost - Responsiveness - Scalability - Ease of deployment - Risk transference - Ease of recovery - Patch availability - Inability to patch - Power - Compute
+3.2.1,Infrastructure considerations,Device placement - Security zones - Attack surface - Connectivity - Failure modes o Fail-open o Fail-closed - Device attribute o Active vs. passive o Inline vs. tap/monitor - Network appliances o Jump server o Proxy server o Intrusion prevention system (IPS)/intrusion detection system (IDS) o Load balancer o Sensors - Port security o 802.1X o Extensible Authentication Protocol (EAP) - Firewall types o Web application firewall (WAF) o Unified threat management (UTM) o Next-generation firewall (NGFW) o Layer 4/Layer 7
+3.2.2,Secure communication/access,Virtual private network (VPN) - Remote access - Tunneling o Transport Layer Security (TLS) o Internet protocol security (IPSec) - Software-defined wide area network (SD-WAN) - Secure access service edge (SASE)
+3.2.3,Selection of effective controls,
+3.3.1,Data types,Regulated - Trade secret - Intellectual property - Legal information - Financial information - Human- and non-humanreadable
+3.3.2,Data classifications,Sensitive - Confidential - Public - Restricted - Private - Critical
+3.3.3,General data considerations,"Data states (Data at rest, Data in transit, Data in use) - Data sovereignty - Geolocation"
+3.3.4,Methods to secure data,Geographic restrictions - Encryption - Hashing - Masking - Tokenization - Obfuscation - Segmentation - Permission restrictions
+3.4.1,High availability,Load balancing vs. clustering
+3.4.2,Site considerations,Hot - Cold - Warm - Geographic dispersion
+3.4.3,Platform diversity,
+3.4.4,Multi-cloud systems,
+3.4.5,Continuity of operations,
+3.4.6,Capacity planning,People - Technology - Infrastructure
+3.4.7,Testing,Tabletop exercises - Fail over - Simulation - Parallel processing
+3.4.8,Backups,Onsite/offsite - Frequency - Encryption - Snapshots - Recovery - Replication - Journaling
+3.4.9,Power,Generators - Uninterruptible power supply (UPS)
+4.1.1,Secure baselines,Establish - Deploy - Maintain
+4.1.2,Hardening targets,Mobile devices - Workstations - Switches - Routers - Cloud infrastructure - Servers - ICS/SCADA - Embedded systems - RTOS - IoT devices
+4.1.3,Wireless devices,"Installation considerations (Site surveys, Heat maps)"
+4.1.4,Mobile solutions,"Mobile device management (MDM) - Deployment models (Bring your own device (BYOD), Corporate-owned, personally enabled (COPE), Choose your own device (CYOD)) - Connection methods(Cellular, Wi-Fi, Bluetooth)"
+4.1.5,Wireless security settings,Wi-Fi Protected Access 3 (WPA3) - AAA/Remote Authentication Dial-In User Service (RADIUS) - Cryptographic protocols - Authentication protocols
+4.1.6,Application security,Input validation - Secure cookies - Static code analysis - Code signing
+4.1.7,Sandboxing,
+4.1.8,Monitoring,
+4.2.1,Acquisition/procurement process,
+4.2.2,Assignment/accounting,Ownership - Classification
+4.2.3,Monitoring/asset tracking,Inventory - Enumeration
+4.2.4,Disposal/decommissioning,Sanitization - Destruction - Certification - Data retention
+4.3.1,Identification methods,"Vulnerability scan - Application security(Static analysis, Dynamic analysis, Package monitoring) - Threat feed(Open-source intelligence (OSINT), Proprietary/third-party, Information-sharing organization, Dark web) - Penetration testing - Responsible disclosure program (Bug bounty program) - System/process audit"
+4.3.2,Analysis,"Confirmation(False positive, False negative) - Prioritize - Common Vulnerability Scoring System (CVSS) - Common Vulnerability Enumeration (CVE) - Vulnerability classification - Exposure factor - Environmental variables - Industry/organizational impact - Risk tolerance"
+4.3.3,Vulnerability response and remediation,Patching - Insurance - Segmentation - Compensating controls - Exceptions and exemptions
+4.3.4,Validation of remediation,Rescanning - Audit - Verification
+4.3.5,Reporting,
+4.4.1,Monitoring computing resources,Systems - Applications - Infrastructure
+4.4.2,Activities,"Log aggregation - Alerting - Scanning - Reporting - Archiving - Alert response and remediation/ validation(Quarantine, Alert tuning)"
+4.4.3,Tools,Security Content Automation Protocol (SCAP) - Benchmarks - Agents/agentless - Security information and event management (SIEM) - Antivirus - Data loss prevention (DLP) - Simple Network Management Protocol (SNMP) traps - NetFlow - Vulnerability scanners
+4.5.1,Firewall,Rules - Access lists - Ports/protocols - Screened subnets
+4.5.2,IDS/IPS,Trends - Signatures
+4.5.3,Web filter,Agent-based - Centralized proxy - Universal Resource Locator (URL) scanning - Content categorization - Block rules - Reputation
+4.5.4,Operating system security,Group Policy - SELinux
+4.5.5,Implementation of secure protocols,Protocol selection - Port selection - Transport method
+4.5.6,DNS filtering,
+4.5.7,Email security,Domain-based Message Authentication Reporting and Conformance (DMARC) - DomainKeys Identified Mail (DKIM) - Sender Policy Framework (SPF) - Gateway
+4.5.8,File integrity monitoring,
+4.5.9,DLP,
+4.5.10,Network access control (NAC),
+4.5.11,Endpoint detection and response (EDR)/extended detection and response (XDR),
+4.5.12,User behavior analytics,
+4.6.1,Provisioning/de-provisioning user accounts,
+4.6.2,Permission assignments and implications,
+4.6.3,Identity proofing,
+4.6.4,Federation,
+4.6.5,Single sign-on (SSO),Lightweight Directory Access Protocol (LDAP) - Open authorization (OAuth) - Security Assertions Markup Language (SAML)
+4.6.6,Interoperability,
+4.6.7,Attestation,
+4.6.8,Access controls,Mandatory - Discretionary - Role-based - Rule-based - Attribute-based - Time-of-day restrictions - Least privilege
+4.6.9,Multifactor authentication,"Implementations (Biometrics, Hard/soft authentication tokens, Security keys) - Factors (Something you know, Something you have, Something you are, Somewhere you are)"
+4.6.10,Password concepts,"Password best practices (Length, Complexity, Reuse, Expiration, Age) - Password managers - Passwordless"
+4.6.11,Privileged access management tools,Just-in-time permissions - Password vaulting - Ephemeral credentials
+4.7.1,Use cases of automation and scripting,User provisioning - Resource provisioning - Guard rails - Security groups - Ticket creation - Escalation - Enabling/disabling services and access - Continuous integration and testing - Integrations and Application programming interfaces (APIs)
+4.7.2,Benefits,Efficiency/time saving - Enforcing baselines - Standard infrastructure configurations - Scaling in a secure manner - Employee retention - Reaction time - Workforce multiplier
+4.7.3,Other considerations,Complexity - Cost - Single point of failure - Technical debt - Ongoing supportability
+4.8.1,Process,Preparation - Detection - Analysis - Containment - Eradication - Recovery - Lessons learned
+4.8.2,Training,
+4.8.3,Testing,Tabletop exercise - Simulation
+4.8.4,Root cause analysis,
+4.8.5,Threat hunting,
+4.8.6,Digital forensics,Legal hold - Chain of custody - Acquisition - Reporting - Preservation - E-discovery
+4.9.1,Log data,Firewall logs - Application logs - Endpoint logs - OS-specific security logs - IPS/IDS logs - Network logs - Metadata
+4.9.2,Data sources,Vulnerability scans - Automated reports - Dashboards - Packet captures
+5.1.1,Guidelines,
+5.1.2,Policies,Acceptable use policy (AUP) - Information security policies - Business continuity - Disaster recovery - Incident response - Software development lifecycle (SDLC) - Change management
+5.1.3,Standards,Password - Access control - Physical security - Encryption
+5.1.4,Procedures,Change management - Onboarding/offboarding - Playbooks
+5.1.5,External considerations,Regulatory - Legal - Industry - Local/regional - National - Global
+5.1.6,Monitoring and revision,
+5.1.7,Types of governance structures,Boards - Committees - Government entities - Centralized/decentralized
+5.1.8,Roles and responsibilities for systems and data,Owners - Controllers - Processors - Custodians/stewards
+5.2.1,Risk identification,
+5.2.2,Risk assessment,Ad hoc - Recurring - One-time - Continuous
+5.2.3,Risk analysis,Qualitative - Quantitative - Single loss expectancy (SLE) - Annualized loss expectancy (ALE) - Annualized rate of occurrence (ARO) - Probability - Likelihood - Exposure factor - Impact
+5.2.4,Risk register,Key risk indicators - Risk owners - Risk threshold
+5.2.5,Risk tolerance,
+5.2.6,Risk appetite,Risk management strategies
+5.2.7,Risk management strategies,"Transfer - Accept (Exemption, Exception) - Avoid - Mitigate"
+5.2.8,Risk reporting,
+5.2.9,Business impact analysis,Recovery time objective (RTO) - Recovery point objective (RPO) - Mean time to repair (MTTR) - Mean time between failures (MTBF)
+5.3.1,Vendor assessment,Penetration testing - Right-to-audit clause - Evidence of internal audits - Independent assessments - Supply chain analysis
+5.3.2,Vendor selection,Due diligence - Conflict of interest
+5.3.3,Agreement types,Service-level agreement (SLA) - Memorandum of agreement (MOA) - Memorandum of understanding (MOU) - Master service agreement (MSA) - Work order (WO)/statement of work (SOW) - Non-disclosure agreement (NDA) - Business partners agreement (BPA)
+5.3.4,Vendor monitoring,
+5.3.5,Questionnaires,
+5.3.6,Rules of engagement,
+5.4.1,Compliance reporting,Internal - External
+5.4.2,Consequences of non-compliance,Fines - Sanctions - Reputational damage - Loss of license - Contractual impacts
+5.4.3,Compliance monitoring,Due diligence/care - Attestation and acknowledgement - Internal and external - Automation
+5.4.4,Privacy,"Legal implications (Local/regional, National, Global) - Data subject - Controller vs. processor - Ownership - Data inventory and retention - Right to be forgotten"
+5.5.1,Attestation,
+5.5.2,Internal,Compliance - Audit committee - Self-assessments
+5.5.3,External,Regulatory - Examinations - Assessment - Independent thirdparty audit
+5.5.4,Penetration testing,"Physical - Offensive - Defensive - Integrated - Known environment - Partially known environment - Unknown environment - Reconnaissance (Passive, Active)"
+5.6.1,Phishing,Campaigns - Recognizing a phishing attempt - Responding to reported suspicious messages
+5.6.2,Anomalous behavior recognition,Risky - Unexpected - Unintentional
+5.6.3,User guidance and training,Policy/handbooks - Situational awareness - Insider threat - Password management - Removable media and cables - Social engineering - Operational security - Hybrid/remote work environments
+5.6.4,Reporting and monitoring,Initial - Recurring
+5.6.5,Development,
+5.6.6,Execution,
